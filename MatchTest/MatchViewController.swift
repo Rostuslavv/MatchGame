@@ -102,7 +102,7 @@ final class MatchViewController: UIViewController {
     }
     
     private func feedbackNotification() {
-        // Ініціалізуйте вібрації
+        // Ініціалізація вібрації
         feedbackGenerator = UINotificationFeedbackGenerator()
         feedbackGenerator?.prepare()
     }
